@@ -1,5 +1,5 @@
 {% set name = "symmray" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/symmray-{{ version }}.tar.gz
-  sha256: ab5aef6408a6d6f3905876872a00087050c90050c5b14220e90b252abab61045
+  sha256: e661332aa4c9d59654b6898bf0f06b36eec29849709239183f992372f0363c58
 
 build:
   noarch: python
