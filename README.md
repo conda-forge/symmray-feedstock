@@ -11,6 +11,8 @@ Summary: A minimal block sparse symmetric and fermionic tensor python library
 
 Development: https://github.com/jcmgray/symmray
 
+Documentation: https://symmray.readthedocs.io/
+
 Current build status
 ====================
 
