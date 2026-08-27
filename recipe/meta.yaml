@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -38,6 +38,7 @@ test:
 about:
   home: https://github.com/jcmgray/symmray
   dev_url: https://github.com/jcmgray/symmray
+  doc_url: https://symmray.readthedocs.io/
   summary: A minimal block sparse symmetric and fermionic tensor python library
   license: Apache-2.0
   license_file: LICENSE
