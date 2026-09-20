@@ -1,6 +1,5 @@
 {% set name = "symmray" %}
-{% set version = "0.3.1" %}
-{% set python_min = "3.11" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +7,12 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/symmray-{{ version }}.tar.gz
-  sha256: 89029ea61e7b6645a75e9938d44bbe543c421e43d7d90e07fdd834016098c79f
+  sha256: 0a23646b72ff670bfb23022a2dbbb1b12b62e8d600aa9b758c2c23fd616f59f8
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
