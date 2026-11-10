@@ -22,8 +22,9 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - autoray
+    - autoray >=0.8.10
     - cotengra
+    - threadpoolctl
 
 test:
   imports:
